@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Gomes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Logo como Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <!-- Font personalizada -> Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Inicio da navegação -->
+    <header>
+        <!-- Menu hamburguer para telas menores -->
+        <nav class="menu-hamburger">
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+        <!-- Menu para telas maiores -->
+            <ul class="menu-hamburguer-elements">
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#academic">Formação</a></li>
+                <li><a href="#experiences">Experiência</a></li>
+                <li><a href="#jobs">Portfólio</a></li>
+                <li><a href="#contacts">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Sessão sobre mim -->
+    <div class="page" id="about">
+        <main>
+            <div class="aboutme" >
+                <h1>Olá, meu nome é Mariana Gomes!</h1>
+                <p>Tenho 25 anos, sou formada em Design Gráfico e atualmente estou cursando Análise e Desenvolvimento de Sistemas.</p>
+                <p>Meu maior hobby com certeza são os Games, já que sou uma player desde criança. 🕹️</p>
+                <p>Inclusive, você pode me acompanhar atráves dos meus canais do Youtube ↓</p>
+                <div class="youtubeContainer">
+                    <a href='https://www.youtube.com/@PlayZoneJoga' target="_blank" class="youtubeButton">
+                        <img src="/images/youtubeicon.png">
+                        Canal de Games
+                    </a>
+                    <a href="https://www.youtube.com/@PlayZoneShorts" target="_blank" class="youtubeButton">
+                        <img src="/images/youtubeicon.png">
+                        Canal de Shorts
+                    </a>
+                </div>
+            </div>
+            <img src="/images/fotoperfil.png" />
+        </main>
+
+        <!-- Span criado para fazer a navegação entre as sessões -->
+        <span id="academic" class="jump-marker"></span>
+
+        <!-- Sessão Formações e cursos -->
+        <section  class="education">
+            <h2>Formação e Cursos</h2>
+            <div class="education-item">
+                <h3> → Tecnólogo em Design Gráfico</h3>
+                <p>Faculdade de Americana · 2017 - 2019</p>
+            </div>
+            <div class="education-item">
+                <h3> → Análise e Desenvolvimento de Sistemas</h3>
+                <p>UNINTER · 2024 - 2026</p>
+            </div>
+            <div class="education-item">
+                <h3> → Fundamentos do React</h3>
+                <p>Rocketseat · 2024 ·  <a target="_blank" 
+                    href="https://app.rocketseat.com.br/certificates/9273cfdc-cf29-4c3d-acc6-5b8f0ab49aeb">Certificado</a></p>
+            </div>
+            <div class="education-item">
+                <h3> → Fundamentos do React Native</h3>
+                <p>Rocketseat · 2024 · <a target="_blank" href="https://app.rocketseat.com.br/certificates/deaf0492-da6c-4da1-ba5c-245b463db17d">Certificado</a></p>
+            </div>
+            <h2>Idiomas</h2>
+            <div class="education-item">
+                <h3> → Inglês</h3>
+                <p>Básico · Nível Técnico</p>
+            </div>
+            <div class="education-item">
+                <h3> → Espanhol</h3>
+                <p>Básico</p>
+            </div>
+        </section>
+
+        <!-- Span criado para fazer a navegação entre as sessões -->
+        <span id="experiences" class="jump-marker"></span>
+
+        <!-- Sessão Experiências -->
+        <section class="experience"> 
+           <h2>Experiência</h2>
+            <div class="cards">
+                <!-- Cards com informações das empresas trabalhadas -->
+                <div class="experience-card">
+                    <h3>Desenvolvedora Mobile Júnior</h3>
+                    <h4>→ Superlógica Tecnologia</h4>
+                    <p>De 2020 a 2023, trabalhei como Desenvolvedora Mobile Júnior na Superlógica Tecnologia. 
+                        Meu papel envolvia o desenvolvimento front-end mobile com React Native, 
+                        incluindo a reprodução de telas criadas pela equipe de Design no Figma. 
+                        Também era responsável pela criação de novas funcionalidades, 
+                        correção de bugs e falhas monitoradas através do Sentry, 
+                        além de desenvolver testes automatizados utilizando Jest. 
+                        Utilizava Styled-Components e TypeScript, 
+                        e trabalhava com ferramentas como Git, GitHub e BitRise.
+                </div>
+
+                <div class="experience-card">
+                    <h3>Desenvolvedora Mobile Júnior</h3>
+                    <h4>→ T10 Bank</h4>
+                    <p>Como Desenvolvedora Mobile no T10 Bank em 2021, 
+                        trabalhei na criação de uma aplicação mobile financeira, 
+                        nessa aplicação fiz algumas integrações com o Back-End, além de desenvolver novas 
+                        funcionalidades no aplicativo como cadastro de usuários, transferências, extratos e 
+                        compartilhamento de comprovantes de transferência e correções de bugs
+                        pelo aplicativo, nessa aplicação também utilizei ferramentas de controle de versões como o GitHub.
+                </div>
+
+                <div class="experience-card">
+                    <h3>Desenvolvedora Front-End</h3>
+                    <h4>→ Helpbox - Oslo Tecnologias</h4>
+                    <p>Em 2020 tive a primeira oportunidade de trabalhar com Desenvolvimento Front-End Web, onde 
+                        fui responsável pela reformulação de um sistema de monitoramento de idosos, além disso 
+                        também desenvolvi pequenos websites utilizando tecnologias como HTML, 
+                        CSS, Bootstrap e JavaScript.
+                </div>
+
+                <div class="experience-card">
+                    <h3>Designer Gráfico</h3>
+                    <h4>→ Helpbox - Oslo Tecnologias</h4>
+                    <p>Em 2020 tive trabalhei na criação de interfaces para uma aplicação mobile
+                        de monitoramento de idosos. Além disso fui responsável pela criação de posts para redes sociais e 
+                        diversas papelarias como caixa de produtos, folders, flyers, manuais, logos, adesivos e identidades visuais.
+                </div>
+            </div>
+        </section>
+
+        <!-- Span criado para fazer a navegação entre as sessões -->
+        <span id="jobs" class="jump-marker"></span>
+
+        <!-- Sessão do Portfólio -->
+        <section class="portfolio"> 
+            <h2>Portfólio</h2>
+             <div class="cards-portfolio">
+                 <div class="portfolio-card">
+                     <h3>App ToDo · Desafio Rocketseat</h3>
+                     <a href="https://github.com/Mariana-Gomes/todo-app" target="_blank"><img src="images/app-todo.jpg" alt="Imagem mostrando as telas do aplicativo todo list" /></a> 
+                     <p>Nesse desafio, eu deveria recriar um app de criação de tarefas, utilizando como base um layout pronto. 
+                        Aqui eu pude colocar em prática conceitos do React Native como Estados, Imutabilidade do Estado, 
+                        Listas, Componentização e Propriedades.
+                 </div>
+ 
+                 <div class="portfolio-card">
+                    <h3>App Rick and Morty · Desafio Superlógica</h3>
+                     <a href="https://github.com/Mariana-Gomes/desafio-mobile-superlogica" target="_blank"><img src="images/desafio-super.png" alt="Imagem mostrando as telas do aplicativo do Rick and Morty" /></a> 
+                     <p>O desafio consistia em criar um aplicativo que mostrasse todos os personagens da série Rick and Morty, 
+                        além disso era necessário que a tela possuisse um infinete scroll. Esse aplicativo deve também 
+                        mostrar os detalhes dos personagens sendo possível favoritá-los.
+                    </p>
+                 </div>
+ 
+                 <div class="portfolio-card">
+                    <h3>Desafio Feed · Rocketseat Ignite</h3>
+                     <a href="https://github.com/Mariana-Gomes/ignite-desafio" target="_blank"><img src="images/ignite-feed.png" alt="Imagem mostrando a tela da aplicação feed feito no desafio ignite" /></a> 
+                     <p>Nesse desafio, eu deveria recriar uma aplicação de um feed, utilizando ReactJS. Aqui eu pratiquei alguns 
+                        conceitos como Estados, Imutabilidade do estado, Componentização, Estilização e TypeScript.
+                    </p>
+                 </div>
+ 
+                 <div class="portfolio-card">
+                    <h3>Jogo da Adivinhação · Desafio</h3>
+                     <a href="https://github.com/Mariana-Gomes/jogoadivinhacao" target="_blank"><img src="images/jogo-adivinhacao.png" alt="Imagem mostrando um jogo de adivinhação" /></a> 
+                     <p>Nesse desafio, eu criei um pequeno jogo em que o usuário deve 
+                        adivinhar o número gerado de forma aleatória.
+                    </p>
+                 </div>
+             </div>
+         </section>
+
+        <!-- Span criado para fazer a navegação entre as sessões -->
+        <span id="contacts" class="jump-marker"></span>
+
+        <!-- Sessão "Contato" -->
+        <section class="contact">
+            <h2>Contato</h2>
+            <p>Gostou do que viu até aqui? Então vamos conversar! =)</p>
+
+            <form id="form">
+                <div class="form-container">
+                    <div class="contact-container">
+                        <div class="contact-item">
+                            <input type="text" placeholder="Digite o seu nome" oninput="nameValidate()" class="required" >
+                            <span class="span-error">Preencha seu nome corretamente!</span>
+                        </div>
+                    
+                        <div class="contact-item">
+                            <input type="tel" placeholder="Digite o seu telefone" class="required" id="phone" name="phone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);"  >
+                            <span class="span-error">Preencha seu telefone!</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <input type="email" placeholder="Digite o seu e-mail" class="required" oninput="emailValidate()" >
+                        <span class="span-error">Preencha seu e-mail corretamente!</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <textarea name="message" placeholder="Escreva..."></textarea>
+                    </div>
+                    <div class="container-button" id="submit">
+                        <button>Enviar</button>
+                    </div>
+                    
+                </div>
+            </form>
+        </section>
+        <!-- Sessão de direito reservados footer da página -->
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados</p>
+            <p>Mariana Gomes</p>
+        </footer>
+    </div>
+
+    <script>
+        const form = document.getElementById('form')
+        const campos = document.querySelectorAll('.required')
+        const spans = document.querySelectorAll('.span-error')
+
+        // Regex para fazemos a verificação na hora de digitar o e-mail 
+        const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+        // Função criada para verificar os campos antes de clicar no botão "Enviar"
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            nameValidate()
+            emailValidate()
+        })
+
+
+        // Função para mostrar o texto do span com a borda vermelha no input que não estiver preenchido corretamente
+        function setError(index){
+            campos[index].style.border = '2px solid #e63636';
+            spans[index].style.display = 'block';
+        }
+
+        // Função para retirar o texto e a borda de erro
+        function removeError(index){
+            campos[index].style.border = '';
+            spans[index].style.display = 'none';
+        }
+        
+        // Função para verificar se o nome possui menos de 3 caracteres 
+        function nameValidate(){
+            if(campos[0].value.length < 3) {
+                setError(0);
+            } else {
+                removeError(0)
+            }
+        }
+
+
+        // Função para validar o e-mail
+        function emailValidate(){
+            if(!emailRegex.test(campos[2].value))
+            {
+                setError(2);
+            } else {
+                removeError(2);
+            }
+        }
+
+
+    // Mascara adicionada no input de telefone
+        function mask(o, f) {
+            setTimeout(function () {
+                var v = mphone(o.value);
+                    if (v != o.value) {
+                        o.value = v;
+                    }
+                }, 1);
+        }
+
+    function mphone(v) {
+        var r = v.replace(/\D/g, "");
+        if (r.length > 10) {
+            // Formatação - (DDD) 9XXXX-XXXX
+            r = r.replace(/^(\d{2})(\d{1})(\d{4})(\d{4}).*/,"($1) $2$3-$4");
+        }
+        else if (r.length > 5) {
+            // Formatação - (DDD) XXXX-XXXX
+            r = r.replace(/^(\d{2})(\d{4})(\d{4}).*/,"($1) $2-$3");
+        }
+        else if (r.length > 2) {
+            // Adicionar (DDD) XXXX
+            r = r.replace(/^(\d{2})(\d{0,4})/,"($1) $2");
+        }
+        else {
+            // Apenas adicionar (DDD)
+            r = r.replace(/^(\d*)/, "($1");
+        }
+        return r;
+    }
+    </script>
+   
+</body>
+</html>
